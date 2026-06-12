@@ -1,91 +1,309 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>HerdMind AI</title>
+
 <style>
+
 body{
-font-family:Arial;
-background:#F1F8E9;
-padding:30px;
+    font-family: Arial, sans-serif;
+    margin:0;
+    padding:0;
+    background:#F1F8E9;
 }
-h1{
-color:#1B5E20;
+
+/* Header */
+
+header{
+    background:#1B5E20;
+    color:white;
+    text-align:center;
+    padding:40px;
 }
-.feature{
-background:white;
-padding:15px;
-margin:10px 0;
-border-radius:10px;
+
+header h1{
+    margin:0;
+    font-size:45px;
 }
+
+header p{
+    font-size:20px;
+}
+
+/* Sections */
+
+section{
+    padding:30px;
+}
+
+h2{
+    color:#1B5E20;
+    text-align:center;
+}
+
+/* Cards */
+
+.feature-card{
+    background:white;
+    padding:20px;
+    margin:15px auto;
+    border-radius:12px;
+    max-width:800px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.15);
+}
+
+.feature-card h3{
+    color:#2E7D32;
+}
+
+.feature-card p{
+    font-size:16px;
+    line-height:1.6;
+}
+
+/* Benefits */
+
+.benefit{
+    background:white;
+    margin:10px auto;
+    padding:15px;
+    border-radius:10px;
+    max-width:700px;
+}
+
+/* Footer */
+
+footer{
+    background:#1B5E20;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:20px;
+}
+
 </style>
+
 </head>
+
 <body>
 
-<h1>HerdMind AI</h1>
+<header>
+
+    <h1>🐄 HerdMind AI</h1>
+
+    <p>
+        Smart Livestock Monitoring and Disease Prediction System
+    </p>
+
+</header>
+
+<section>
 
 <h2>About The App</h2>
 
-<p>
+<p style="text-align:center; max-width:900px; margin:auto; line-height:1.8;">
+
 HerdMind AI is an intelligent livestock management application
 developed to help farmers monitor animal health, reduce disease risks,
 and improve farm productivity.
 
-The application combines Artificial Intelligence, Weather Monitoring,
-Location Services, Animal Care Guidance, and Emergency Support
-into a single easy-to-use platform.
+The application combines Artificial Intelligence,
+Real-Time Weather Monitoring,
+GPS Location Services,
+Animal Care Guidance,
+Emergency Support,
+and Prediction History
+into one easy-to-use platform.
 
-It is designed especially for farmers who need quick and reliable
-information for maintaining healthy livestock.</p>
+It is specially designed for farmers to make better decisions
+for livestock health and farm management.
 
-<h2>Features</h2>
+</p>
 
-<div class="feature">
-Disease Risk Prediction
+</section>
+
+<section>
+
+<h2>Our Features</h2>
+
+<div class="feature-card">
+<h3>🐄 Disease Prediction</h3>
+<p>
+Predicts livestock disease risk using animal temperature,
+humidity, activity level and feeding information.
+The system classifies animals into Low Risk,
+Medium Risk and High Risk categories.
+</p>
 </div>
 
-<div class="feature">
-Real-Time Weather Monitoring
+<div class="feature-card">
+<h3>🌦 Real-Time Weather Monitoring</h3>
+<p>
+Uses GPS and OpenWeather API to provide
+live temperature, humidity and weather conditions
+for the farmer's current location.
+</p>
 </div>
 
-<div class="feature">
-Prediction History Tracking
+<div class="feature-card">
+<h3>📖 Animal Care Guide</h3>
+<p>
+Provides information about feeding,
+vaccination, hygiene practices,
+shelter management and livestock care.
+</p>
 </div>
 
-<div class="feature">
-Farmer Tips and Guidance
+<div class="feature-card">
+<h3>🚨 Emergency Contacts</h3>
+<p>
+Provides quick access to veterinary hospitals,
+animal care helplines and emergency services.
+</p>
 </div>
 
-<div class="feature">
-Animal Care Guide
+<div class="feature-card">
+<h3>💡 Farmer Tips</h3>
+<p>
+Offers useful tips on livestock health,
+nutrition, disease prevention and farm management.
+</p>
 </div>
 
-<div class="feature">
-Emergency Veterinary Contacts
+<div class="feature-card">
+<h3>📜 Prediction History</h3>
+<p>
+Stores previous predictions in Firebase Firestore
+so farmers can track animal health records over time.
+</p>
 </div>
 
-<div class="feature">
-Multi-Language Support
+<div class="feature-card">
+<h3>🌐 Multi-Language Support</h3>
+<p>
+Supports multiple Indian languages
+to make the application easy to use
+for farmers from different regions.
+</p>
 </div>
 
-<div class="feature">
-GPS Based Weather Information
+</section>
+
+<section>
+
+<h2>Benefits To Farmers</h2>
+
+<div class="benefit">
+✅ Early disease detection
 </div>
+
+<div class="benefit">
+✅ Better livestock health management
+</div>
+
+<div class="benefit">
+✅ Reduced animal losses
+</div>
+
+<div class="benefit">
+✅ Weather-based decision making
+</div>
+
+<div class="benefit">
+✅ Easy access to emergency support
+</div>
+
+<div class="benefit">
+✅ Simple and user-friendly interface
+</div>
+
+</section>
+
+<section>
 
 <h2>Technology Used</h2>
 
+<div class="feature-card">
+
 <ul>
+
 <li>Android Studio</li>
+
 <li>Java</li>
+
 <li>Firebase Firestore</li>
+
 <li>OpenWeather API</li>
-<li>Google Location Services</li>
+
+<li>Google Location Services (GPS)</li>
+
+<li>XML UI Design</li>
+
+<li>GitHub Pages Website</li>
+
 </ul>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>Future Scope</h2>
+
+<div class="feature-card">
+
+<p>
+
+🔹 AI Camera Based Disease Detection<br><br>
+
+🔹 Vaccination Reminder System<br><br>
+
+🔹 Voice Assistant for Farmers<br><br>
+
+🔹 Advanced Disease Prediction Models<br><br>
+
+🔹 Farm Analytics Dashboard<br><br>
+
+🔹 Smart Livestock Monitoring Sensors
+
+</p>
+
+</div>
+
+</section>
+
+<section>
 
 <h2>Developer</h2>
 
+<div class="feature-card">
+
+<h3>Pujita Singh</h3>
+
 <p>
-Pujita Singh
+
+M.Sc. IT Student<br><br>
+
+Developer of HerdMind AI Livestock Management System
+
 </p>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>
+© 2026 HerdMind AI | Smart Livestock Monitoring System
+</p>
+
+</footer>
 
 </body>
 </html>
